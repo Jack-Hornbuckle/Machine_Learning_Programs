@@ -1,0 +1,17 @@
+This directory contains a program to train a model to predict the closing price of a stock.
+
+Files:
+-close_price_predict.py: the program used to train a model to predict the closing price of a stock
+
+Instructions:
+1. If you have the matplotlib library installed uncomment line 6 and lines 87 through 91.
+2. In the default setting, the program simply runs gradient descent on the NASDAQ class C share of Alphabet INC (or "GOOG"), then prints out theta. 
+If you want the program to use additional features, use these command line arguments:
+-If you want to collect data from another company and analyze that data, use the command line argument "company"
+followed by the NASDAQ share abbreviation of the company you want data on.
+-If you want to print some training and testing errors, use the command line argument "print_errors" 
+followed by the first index of the error arrays you want to print and then the optional last index. It will print the errors from the firs through the last index that you specify.
+-If you want to graph the errors, use the command line argument "graph_errors" and the program will graph the errors for you.
+-If you want to predict some closing prices and graph them use the command line argument "graph_predictions".
+-If you want to predict some values then print them, use the command line argument "show_predictions" followed by the first index of the predicted closing prices that you want to print.
+You can then type the last index unless you want to print all values from that first index.
